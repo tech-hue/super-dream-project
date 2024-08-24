@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <title>to grid practice</title>
+  
+
+  
+</head>
+<body style="padding-bottom: 1000px;">
+  <div style="display:grid;
+               grid-template-columns: 100px 100px;">
+    <div style="background-color: blue;">div-1</div>
+    <div style="background-color: yellow;">div-2<p>text</p></div>
+    
+  </div>
+
+
+    <div style="display:grid;
+                grid-template-columns: 100px 100px 300px;
+                margin-top: 30px;">
+      <div style="background-color: blue;">100px</div>
+      <div style="background-color: yellow;">100px<p>text</p></div> 
+      <div style="background-color: green;">300px</div>
+     
+
+      <div style="background-color: yellow;">div-additional</div>
+   </div>
+
+
+
+    <div style="display:grid;
+    grid-template-columns: 100px 1fr;
+    margin-top: 30px;">
+  <div style="background-color: blue;">100px</div>
+  <div style="background-color: yellow;">1fr</div> 
+   </div>
+
+
+
+    <div style="display:grid;
+    grid-template-columns: 100px 1fr 2fr;
+    margin-top: 30px;">
+  <div style="background-color: blue;">100px</div>
+  <div style="background-color: yellow;">1fr</div>
+  <div style="background-color: blueviolet;">2fr</div> 
+    </div>
+
+
+
+      <div style="display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 30px;
+      column-gap: 20px;
+      row-gap:40px;">
+    <div style="background-color: blue; height:200px;">1fr</div>
+    <div style="background-color: yellow; height:200px;">1fr</div>
+    <div style="background-color: blueviolet; height:200px;">1fr</div> 
+
+    <div style="background-color: yellow; height:200px;">1fr</div>
+    <div style="background-color: blueviolet; height:200px;">1fr</div> 
+    <div style="background-color: blue; height:200px;">1fr</div>
+      </div>
+
+
+</body>
+</html>
